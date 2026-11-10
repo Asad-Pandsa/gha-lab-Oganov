@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Переменная
-        run: echo "Курс: $COURSE"
+        run: echo "Курс: ${{COURSE}}"
       - name: Кто запустил
         run: echo "Запустил: ${{ github.actor }}"
       - name: Секрет
